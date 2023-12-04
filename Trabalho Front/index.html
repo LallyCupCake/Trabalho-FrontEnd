@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabalho de FrontEnd</title>
+</head>
+
+<body>
+    <header>
+        <div id="cabeca">
+            <div id="logo">
+                <img src="./Logo Uninassau.png" width="200px" height="200px">
+            </div>
+            <div>
+                <h1>Grupo Front End Uninassau 2MA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore officia reprehenderit adipisci autem
+                    temporibus, minima impedit quae magnam aspernatur aliquid minus earum optio consectetur ex. Velit
+                    natus
+                    voluptatum voluptatibus quis.</p>
+            </div>
+            <div id="botoes">
+                <button>Exposição</button>
+                <button onclick="abrirGaleria()">Galeria</button>
+                <button>Cadastrar</button>
+            </div>
+        </div>
+        <script>
+            function abrirGaleria() {
+                window.location.href = './/info/expo.html';
+            }
+        </script>
+    </header>
+    <main>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th/id/OIP.rIWsMke2FObvAzzyH9cnqAHaF7?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/R.198b9faae815af9281fd78b338038353?rik=N83jCL83whA6kg&riu=http%3a%2f%2fwww.osmais.com%2fwallpapers%2f201112%2flindos-gatinhos-brancos-wallpaper.jpg&ehk=Jo8dnKirqbAzah5pGXUrAc0CQoHffZp%2bLGFmq0w2LN0%3d&risl=&pid=ImgRaw&r=0"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i0.statig.com.br/bancodeimagens/3p/ql/is/3pqliselu0ykp7k9duv7lw1z7.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.Zj022XYBW_E1oD4zwNsFZAHaFj?rs=1&pid=ImgDetMain"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/originals/63/3a/ec/633aecbc87616e856e8b3c8886a3129b.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/R.7d9d0b49f93c8c0325f415443e59c6aa?rik=EH%2bfqvXwJzdxvQ&pid=ImgRaw&r=0"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <p>&copy; Uninassau Trabalho FrontEnd Framework </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
