@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styleGaleria.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Galeria</title>
+</head>
+
+<body>
+    <header>
+        <div id="cabeca">
+            <div id="logo">
+                <img src="./imagens/Logo Uninassau.png" width="200px" height="200px">
+            </div>
+            <div>
+                <h1>Grupo Front End Uninassau 2MA</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore officia reprehenderit adipisci autem
+                    temporibus, minima impedit quae magnam aspernatur aliquid minus earum optio consectetur ex. Velit
+                    natus
+                    voluptatum voluptatibus quis.</p>
+            </div>
+            <div id="botoes">
+                <div class="container" onclick="anda()">
+                    <div class="background">
+                        <div class="circulo"></div>
+                    </div>
+                </div>
+                <button onclick="abrirIndex()">Exposição</button>
+                <button onclick="abrirGaleria()">Galeria</button>
+                <button onclick="abrirCadastro()">Cadastrar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav id="card-container">
+            <div class="card">
+                <img class="imagens" src="./imagens/MySQL.png" alt="">
+                <p>Projeto Banco de Dados</p>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ut soluta
+                    perferendis voluptate?
+                    Provident excepturi minima, reiciendis aspernatur veniam veritatis expedita! Minus blanditiis
+                    delectus odio deleniti quaerat praesentium, molestiae officia.</p>
+            </div>
+            <div class="card">
+                <img class="imagens" src="./imagens/Calculadora.jpg" alt="">
+                <p>Projeto Calculadora</p>
+                <p class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque commodi dolor quam
+                    cum repellat
+                    asperiores libero voluptatum fuga? Modi possimus dolorum corporis voluptates doloremque voluptatum
+                    animi ullam, corrupti dolor omnis?</p>
+            </div>
+            <div class="card">
+                <img class="imagens" src="./imagens/modelagem.png" alt="">
+                <p>Projeto de Modelagem</p>
+                <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit doloribus
+                    nobis repudiandae,
+                    sit officiis commodi, molestiae facere rerum suscipit quod voluptate accusamus, libero dolorem
+                    quisquam asperiores perferendis in aut quo!</p>
+            </div>
+        </nav>
+    </main>
+    <footer>
+        <p>&copy; Uninassau Trabalho FrontEnd Framework </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="script/scriptHeader.js"></script>
+    <script src="./script/scriptBotao.js"></script>
+</body>
+
+</html>
